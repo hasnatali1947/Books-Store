@@ -1,8 +1,8 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Form from './Component/componentStling/Form';
-import Navbar from './Component/componentStling/navbar';
+import Home from './Component/Home';
+import Navbar from './Component/navbar';
 import Categories from './Component/categories';
 
 const App = () => (
@@ -10,7 +10,7 @@ const App = () => (
     <Navbar />
     <Routes>
       <Route path="Categories" element={<Categories />} />
-      <Route exact path="/" element={<Form />} />
+      <Route exact path="/" element={<Home />} />
     </Routes>
   </Router>
 
