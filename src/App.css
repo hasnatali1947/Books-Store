@@ -1,0 +1,273 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border: 2px solid;
+}
+
+.navcontainer {
+  margin-left: 10vh;
+}
+
+.navbarItems {
+  display: flex;
+}
+
+.navbarItems h1 {
+  font-size: 34px;
+  color: #0290ff;
+}
+
+.navbarItems li {
+  display: flex;
+}
+
+.logo {
+  background-image: url("icons/humanLogo.png");
+  background-position: center;
+  background-size: cover;
+  height: 5vh;
+  width: 5vh;
+  border: 2px solid rgb(238, 230, 217);
+  border-radius: 50%;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.routerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-categoriens a {
+  margin-left: 5vh;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-books a {
+  color: black;
+  text-decoration: none;
+}
+
+.categries-container h2 {
+  font-size: 30px;
+}
+
+.categries-container li {
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+.container {
+  width: 100%;
+  height: 70vh;
+  overflow: scroll;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+  bottom: 0%;
+  left: 0%;
+}
+
+.form-div h1 {
+  margin-left: 5vh;
+}
+
+.divforflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  height: 3.2vh;
+  width: 70vh;
+  margin: 10px;
+  padding: 5px;
+}
+
+.Add-btn {
+  width: 16vh;
+  height: 5vh;
+  background-color: #0290ff;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.valuesContainer {
+  width: 100%;
+  margin-bottom: 35vh;
+}
+
+.blocks {
+  display: flex;
+  border: 1px solid;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.book {
+  margin: 0.188rem 20.188rem 0 0;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+.title {
+  margin: 0.25rem 0 0;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 10vh;
+  width: 100vh;
+  padding: 30px;
+}
+
+.categories-value {
+  width: 3.063rem;
+  height: 1.125rem;
+  margin: 0 2.438rem 0 0;
+  opacity: 0.5;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.btns-div button {
+  background-color: white;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 10px;
+}
+
+.remove-btn {
+  border: none;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.btn {
+  border: none;
+  color: #0290ff;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+}
+
+#option-categories {
+  font-size: 16px;
+  height: 5vh;
+  margin-right: 2vh;
+}
+
+.chapterItems {
+  display: flex;
+  align-items: center;
+}
+
+.chapterItems h6 {
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.updated-prograss-btn {
+  height: 4.5vh;
+  padding: 0 20px;
+  background-color: #0290ff;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.figma {
+  display: flex;
+}
+
+.ovalImg {
+  width: 4.25rem;
+  height: 4.25rem;
+  border: solid 5px #e8e8e8;
+  border-image-source: linear-gradient(to bottom, #307bbe, #379cf6);
+  border-image-slice: 1;
+}
+
+.percent {
+  width: 4.25rem;
+  height: 2.438rem;
+  margin: 0.063rem 5.75rem 0 0.688rem;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.completed {
+  width: 5rem;
+  height: 1.125rem;
+  margin: 0.438rem 4.938rem 0.75rem 0.75rem;
+  opacity: 0.5;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
